@@ -17,6 +17,8 @@
 
 #### HASIL RUNNING NOMOR 1 ####
 
+![fsm tugas 7](https://user-images.githubusercontent.com/54678313/66270837-0cd21d80-e882-11e9-8d50-a907757d6357.jpg)
+
 Yang membedakan antara tugas 7 ini dan tugas 6 adalah disini kita akan melakukan serve koneksi https. Dimana https ini bekerja dengan melakukan encrypt message. Encrypt message membuat situs kita lebih aman dari serangan cyber. Untuk melakukan serve https pertama kita harus membuat server.crt dan server.key untuk melakukan encrypt.
 Didalam config.yaml kita tambahkan port-ssl untuk httpsnya yang kemudian server akan membaca config untuk menentukan nama database, tabel, port database, dan juga port http untuk mengakses web aplikasi. Lalu setelah membaca config, server akan mengecek koneksi ke databse yang digunakan, jika dapat terhubung server akan membuka rute-rute yang dapat diakses. Didalam web aplikasi pengguna dapat melakukan CRUD seperti menambahkan data karyawan baru, melihat data karyawan yang tersimpan, mengedit data karyawan yang telah disimpan, dan juga menghapus data karyawan.
 
