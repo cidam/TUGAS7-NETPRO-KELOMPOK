@@ -1,0 +1,7 @@
+database:
+  localhost: "localhost"
+  port: "27017"
+  db: "employee"
+server:
+  port: 8800
+  port-ssl: 443
